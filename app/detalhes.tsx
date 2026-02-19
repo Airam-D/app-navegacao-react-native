@@ -9,14 +9,14 @@ export default function Detalhes() {
             <Text style={styles.title}>
                 Tela de Detalhes
             </Text>
-            <Image style={styles.image} 
-            source={require('../assets/images/foto-joao.png')} />
+            <Image style={styles.image}
+                source={require('../assets/images/foto-joao.png')} />
 
             <Text style={styles.discription}>
-                Aqui você pode adicionar mais informações    
-            </Text> 
+                Aqui você pode adicionar mais informações
+            </Text>
 
-            <TouchableOpacity style={styles.button} onPress={ () => router.back()}>
+            <TouchableOpacity style={styles.button} onPress={() => router.back()}>
                 <Text style={styles.buttonText}>
                     Voltar
                 </Text>
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     discription: {
         fontSize: 14,
         color: '#333',
-        textAlign:  'center',
+        textAlign: 'center',
         marginBottom: 28,
     }
 });

@@ -9,7 +9,7 @@ export default function Sobre() {
                 Tela Sobre
             </Text>
             <Image style={styles.image}
-            source={require('../assets/images/foto-wesley.png')} />
+                source={require('../assets/images/foto-wesley.png')} />
             <Text style={styles.discription}>
                 Esta é a tela sobre, onde você pode colocar informações sobre o app ou a empresa.
             </Text>
